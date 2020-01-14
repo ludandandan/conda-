@@ -7,3 +7,4 @@
 ## 列出环境里都安装了什么： 先进入那个环境，然后conda list
 ## 复制环境：直接使用conda create -n new_env --clone old_env复制既有环境
 ## 查看cuda版本：nvcc -V或nvcc --version
+## python中import某个文件夹import data.data_loader没法import时，可以在文件夹内建立一个__init__.py文件

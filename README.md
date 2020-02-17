@@ -8,3 +8,4 @@
 ## 复制环境：直接使用conda create -n new_env --clone old_env复制既有环境
 ## 查看cuda版本：nvcc -V或nvcc --version
 ## python中import某个文件夹import data.data_loader没法import时，可以在文件夹内建立一个__init__.py文件
+## 若是要在另一台服务器上复制环境，可以直接copy过去，scp -r -P ld@xxx.xxx.xxx.xxx:home/miniconda3/envs........
